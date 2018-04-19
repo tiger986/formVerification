@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="index.css"/>
+	<script src="jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script language="javascript" type="text/javascript" src="DatePicker/WdatePicker.js"></script>
+	<script src="index.js"></script>
+</head>
+<body>
+	<div class="pianoCompetitionBox_enroll_part1">
+    	<div class="pianoCompetitionBox_enroll_part1_icon">
+    		<img src="img/enroll1.png" />
+    	</div>
+    			
+    	<div class="pianoCompetitionBox_enroll_part1_title">个人基本信息</div>
+    			
+    	<div class="pianoCompetitionBox_enroll_part1_con" style="margin-top: 26px;">
+    		<div class="pianoCompetitionBox_enroll_part1_con_left">
+    			<div class="pianoCompetitionBox_enroll_part1_con_text">
+    				<b></b>
+    				<span>姓名（中文）</span>
+    			</div>
+    			<input type="text" class="pianoCompetitionBox_enroll_part1_con_ipt1 chineseName" />
+    		</div>
+    		<div class="pianoCompetitionBox_enroll_part1_con_left">
+    			<div class="pianoCompetitionBox_enroll_part1_con_text">
+    				<b></b>
+    				<span>姓名（英文）</span>
+    			</div>
+    			<input type="text" class="pianoCompetitionBox_enroll_part1_con_ipt1 englishName" />
+    		</div>
+    		<div class="pianoCompetitionBox_enroll_part1_con_right">
+    			<div class="pianoCompetitionBox_enroll_part1_con_text">
+    				<b></b>
+    				<span>性别</span>
+    			</div>
+    			<select class="pianoCompetitionBox_enroll_part1_con_sel1">
+				    <option value="1" selected>男</option>
+				    <option value="2">女</option>
+				</select>
+    		</div>
+    	</div>
+    	<div class="pianoCompetitionBox_enroll_part1_con">
+    		<div class="pianoCompetitionBox_enroll_part1_con_left">
+    			<div class="pianoCompetitionBox_enroll_part1_con_text">
+    				<b></b>
+    				<span>出生日期</span>
+    			</div>
+    			<!--<input type="text" class="pianoCompetitionBox_enroll_part1_con_ipt1" />-->
+    			<input class=" pianoCompetitionBox_enroll_part1_con_ipt1 birthday" type="text" />
+    		</div>
+    		<div class="pianoCompetitionBox_enroll_part1_con_left">
+    			<div class="pianoCompetitionBox_enroll_part1_con_text">
+    				<b></b>
+    				<span>QQ号</span>
+    			</div>
+    			<input class=" pianoCompetitionBox_enroll_part1_con_ipt1 qq" type="text" />
+    		</div>
+    		<div class="pianoCompetitionBox_enroll_part1_con_right">
+    			<div class="pianoCompetitionBox_enroll_part1_con_text">
+    				<b></b>
+    				<span>微信号</span>
+    			</div>
+    			<input type="text" class="pianoCompetitionBox_enroll_part1_con_ipt1 wx" />
+    		</div>
+    	</div>
+    	<div class="pianoCompetitionBox_enroll_part1_con">
+    		<div class="pianoCompetitionBox_enroll_part1_con_left">
+    			<div class="pianoCompetitionBox_enroll_part1_con_text">
+    				<b></b>
+    				<span>证件号</span>
+    			</div>
+    			<input type="text" class="pianoCompetitionBox_enroll_part1_con_ipt1 certificate" />
+    		</div>
+    		<div class="pianoCompetitionBox_enroll_part1_con_left">
+    			<div class="pianoCompetitionBox_enroll_part1_con_text">
+    				<b></b>
+    				<span>学琴年数</span>
+    			</div>
+    			<input type="text" class="pianoCompetitionBox_enroll_part1_con_ipt1 learnNum" />
+    		</div>
+    		<div class="pianoCompetitionBox_enroll_part1_con_right">
+    			<div class="pianoCompetitionBox_enroll_part1_con_text">
+    				<b></b>
+    				<span>参赛组别</span>
+    			</div>
+    			<select class="pianoCompetitionBox_enroll_part1_con_sel1">
+				    <option value="1" selected>少年A组</option>
+				    <option value="2">少年B组</option>
+				    <option value="3">少年C组</option>
+				    <option value="4">青年组</option>
+				</select>
+    		</div>
+    	</div>
+    	<div class="pianoCompetitionBox_enroll_part1_con">
+    		<div class="pianoCompetitionBox_enroll_part1_con_left">
+    			<div class="pianoCompetitionBox_enroll_part1_con_text">
+    				<b></b>
+    				<span>个人主页</span>
+    			</div>
+    			<input type="text" class="pianoCompetitionBox_enroll_part1_con_ipt1 url" />
+    		</div>
+    		<div class="pianoCompetitionBox_enroll_part1_con_left">
+    			<div class="pianoCompetitionBox_enroll_part1_con_text">
+    				<b></b>
+    				<span>是否参加文化之旅</span>
+    			</div>
+    			<select class="pianoCompetitionBox_enroll_part1_con_sel1">
+				    <option value="1" selected>是</option>
+				    <option value="0">否</option>
+				    </select>
+    			</div>
+    			<div class="pianoCompetitionBox_enroll_part1_con_right">
+    			<div class="pianoCompetitionBox_enroll_part1_con_text">
+    				<b></b>
+    				<span>是否参加大师班</span>
+    			</div>
+    			<select class="pianoCompetitionBox_enroll_part1_con_sel1">
+				    <option value="1" selected>是</option>
+				    <option value="0">否</option>
+				</select>
+    		</div>
+    	</div>
+    	<div class="pianoCompetitionBox_enroll_part1_con">
+    		<div class="pianoCompetitionBox_enroll_part1_con_text">
+    			<b></b>
+    			<span>申请人艺术简历（获奖情况）</span>
+    		</div>
+    		<textarea class="pianoCompetitionBox_enroll_part1_con_textarea info"></textarea>
+    	</div>
+    			
+    	<div class="pianoCompetitionBox_enroll_part1_title">紧急联系人</div>
+    			
+    	<div class="pianoCompetitionBox_enroll_part1_con">
+    		<div class="pianoCompetitionBox_enroll_part1_con_left">
+    			<div class="pianoCompetitionBox_enroll_part1_con_text">
+    				<b></b>
+    				<span>家长姓名</span>
+    			</div>
+    			<input type="text" class="pianoCompetitionBox_enroll_part1_con_ipt1 famName" />
+    		</div>
+    		<div class="pianoCompetitionBox_enroll_part1_con_left">
+    			<div class="pianoCompetitionBox_enroll_part1_con_text">
+    				<b></b>
+    				<span>电子邮箱</span>
+    			</div>
+    			<input type="text" class="pianoCompetitionBox_enroll_part1_con_ipt1 email" />
+    		</div>
+    		<div class="pianoCompetitionBox_enroll_part1_con_right">
+    			<div class="pianoCompetitionBox_enroll_part1_con_text">
+    				<b></b>
+    				<span>联系电话</span>
+    			</div>
+    			<input type="text" class="pianoCompetitionBox_enroll_part1_con_ipt1 phone" />
+    		</div>    				
+    	</div>
+    	<div class="pianoCompetitionBox_enroll_part1_con">
+    		<div class="pianoCompetitionBox_enroll_part1_con_left">
+    			<div class="pianoCompetitionBox_enroll_part1_con_text">
+    				<b></b>
+    				<span>家庭住址</span>
+    			</div>
+    			<input type="text" class="pianoCompetitionBox_enroll_part1_con_ipt1 addr" />
+    		</div>
+    		<div class="pianoCompetitionBox_enroll_part1_con_left">
+    			<div class="pianoCompetitionBox_enroll_part1_con_text">
+    				<b></b>
+    				<span>邮编号码</span>
+    			</div>
+    			<input type="text" class="pianoCompetitionBox_enroll_part1_con_ipt1 code" />
+    		</div>
+    		<div class="pianoCompetitionBox_enroll_part1_con_right">
+    			<div class="pianoCompetitionBox_enroll_part1_con_text">
+    				<b></b>
+    				<span>家长是否随行</span>
+    			</div>
+    			<select class="pianoCompetitionBox_enroll_part1_con_sel1">
+				    <option value="1" selected>是</option>
+				    <option value="0">否</option>
+				</select>
+    		</div>    				
+    	</div>
+    			
+    	<div class="pianoCompetitionBox_enroll_part1_title">教师基本信息</div>
+    			
+    	<div class="pianoCompetitionBox_enroll_part1_con" style="margin-top: 26px;">
+    		<div class="pianoCompetitionBox_enroll_part1_con_left">
+    			<div class="pianoCompetitionBox_enroll_part1_con_text">
+    				<b></b>
+    				<span>专业教师姓名</span>
+    			</div>
+    			<input type="text" class="pianoCompetitionBox_enroll_part1_con_ipt1 teacherName" />
+    		</div>
+    		<div class="pianoCompetitionBox_enroll_part1_con_left">
+    			<div class="pianoCompetitionBox_enroll_part1_con_text">
+    				<b></b>
+    				<span>专业教师电话</span>
+    			</div>
+    			<input type="text" class="pianoCompetitionBox_enroll_part1_con_ipt1 teacherPhone" />
+    		</div>
+    		<div class="pianoCompetitionBox_enroll_part1_con_right">
+    			<div class="pianoCompetitionBox_enroll_part1_con_text">
+    				<b></b>
+    				<span>所在单位</span>
+    			</div>
+    			<input type="text" class="pianoCompetitionBox_enroll_part1_con_ipt1 teacherCom" />
+    		</div>
+    	</div>
+    			
+    	<div class="pianoCompetitionBox_enroll_part1_title">参赛曲目</div>
+    			
+    	<div class="pianoCompetitionBox_enroll_part1_con">
+    		<div class="pianoCompetitionBox_enroll_part1_con_text">
+    			<b></b>
+    			<span>网络预选赛曲目</span>
+    		</div>
+    		<input type="text" class="pianoCompetitionBox_enroll_part1_con_ipt2 song0" />
+    	</div>
+    	<div class="pianoCompetitionBox_enroll_part1_con">
+    		<div class="pianoCompetitionBox_enroll_part1_con_text">
+    			<b></b>
+    			<span>总决赛曲目（一）</span>
+    		</div>
+    		<input type="text" class="pianoCompetitionBox_enroll_part1_con_ipt2 song1" />
+    	</div>
+    	<div class="pianoCompetitionBox_enroll_part1_con">
+    		<div class="pianoCompetitionBox_enroll_part1_con_text">
+    			<b></b>
+    			<span>总决赛曲目（二）</span>
+    		</div>
+    		<input type="text" class="pianoCompetitionBox_enroll_part1_con_ipt2 song2" />
+    	</div>
+    	<div class="pianoCompetitionBox_enroll_part1_con">
+    		<div class="pianoCompetitionBox_enroll_part1_con_text">
+    			<b></b>
+    			<span>总决赛曲目（三）</span>
+    		</div>
+    		<input type="text" class="pianoCompetitionBox_enroll_part1_con_ipt2 song3" />
+    	</div>
+    	<div class="pianoCompetitionBox_enroll_part1_con">
+    		<div class="pianoCompetitionBox_enroll_part1_con_text">
+    			<b></b>
+    			<span>总决赛曲目（四）</span>
+    		</div>
+    		<input type="text" class="pianoCompetitionBox_enroll_part1_con_ipt2 song4" />
+    	</div>
+    	<div class="pianoCompetitionBox_enroll_part1_tell">16岁以下的学生应有父母或有指定的监护人陪同参加赴德总决赛</div>
+    		
+    	<div class="pianoCompetitionBox_enroll_part1_btn next">下一步</div>
+    	
+    	<!-- 遮罩层 -->
+        <div class="bg"></div>
+        
+    	<!--验证表单弹窗-->
+        <div class="iptPop">
+        	<div class="iptPop_title">提示</div>
+			<div class="iptPop_con"></div>
+			<p class="iptPop_close">×</p>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="index.js" type="text/javascript" charset="utf-8"></script>

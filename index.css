@@ -1,0 +1,225 @@
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, address, big, cite, code, del, em, font, img, ins, small, strong, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+    margin: 0;
+    padding: 0
+}
+input{
+	outline: none;
+}
+
+.pianoCompetitionBox_enroll_part1{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 70px 0;
+	overflow: hidden;
+}
+.pianoCompetitionBox_enroll_part1_icon{
+	width: 1200px;
+	height: 120px;
+}
+.pianoCompetitionBox_enroll_part1_icon img{
+	width: 120px;
+	height: 120px;
+	float: left;
+}
+.pianoCompetitionBox_enroll_part1_title{
+	width: 1200px;
+	height: 18px;
+	margin-top: 35px;
+	font-size: 16px;
+	color: #333333;
+	line-height: 18px;
+	font-weight: bold;
+}
+.pianoCompetitionBox_enroll_part1_con{
+	width: 1200px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.pianoCompetitionBox_enroll_part1_con_left{
+	width: 300px;
+	height: 68px;
+	float: left;
+	margin-right: 148px;
+}
+.pianoCompetitionBox_enroll_part1_con_right{
+	width: 300px;
+	height: 68px;
+	float: right;
+}
+.pianoCompetitionBox_enroll_part1_con_text{
+	width: 300px;
+	height: 16px;	
+}
+.pianoCompetitionBox_enroll_part1_con_text b{
+	float: left;
+	width: 4px;
+	height: 4px;
+	background-color: red;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	margin-top: 6px;
+}
+.pianoCompetitionBox_enroll_part1_con_text span{
+	float: left;
+	font-size: 14px;
+	color: #666666;
+	line-height: 16px;
+	margin-left: 3px;
+}
+.pianoCompetitionBox_enroll_part1_con_ipt1{
+	width: 278px;
+	height: 40px;
+	border: 1px solid #E5E5E5;
+	background-color: #F5F5F5;
+	padding: 0 10px;
+	font-size: 14px;
+	color: #666666;
+	line-height: 40px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin-top: 10px;
+}
+.pianoCompetitionBox_enroll_part1_con_ipt2{
+	width: 1178px;
+	height: 40px;
+	border: 1px solid #E5E5E5;
+	background-color: #F5F5F5;
+	padding: 0 10px;
+	font-size: 14px;
+	color: #666666;
+	line-height: 40px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin-top: 10px;
+}
+.pianoCompetitionBox_enroll_part1_con_sel1::-ms-expand { display: none; } 
+.pianoCompetitionBox_enroll_part1_con_sel1{
+	width: 300px;
+	height: 42px;
+	box-sizing: border-box;
+    font-size: 14px;
+	color: #666666;
+	line-height: 40px;
+	padding: 0px 20px 0 10px;
+	border: 1px solid #E5E5E5;
+	outline: none;
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	-ms-appearance:none;
+	background-color: #F5F5F5;
+	background-image: url(img/down.png);
+	background-repeat: no-repeat;
+	background-size: 12px 13px;
+	background-position: 282px center;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin-top: 10px;
+}
+.pianoCompetitionBox_enroll_part1_con_sel1 option{
+	background-color: #FFFFFF;
+}
+.pianoCompetitionBox_enroll_part1_con_textarea{
+	width: 1178px;
+	height: 188px;
+	border: 1px solid #E5E5E5;
+	background-color: #F5F5F5;
+	padding: 5px 10px;
+	font-size: 14px;
+	color: #666666;
+	line-height: 22px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin-top: 10px;
+	resize: none;
+}
+.pianoCompetitionBox_enroll_part1_tell{
+	height: 14px;
+	margin-top: 30px;
+	font-size: 12px;
+	color: #FDA43A;
+	line-height: 14px;
+	text-align: center;
+}
+.pianoCompetitionBox_enroll_part1_btn{
+	width: 158px;
+	height: 42px;
+	margin: 30px auto 0;
+	background-color: #FDA43A;
+	font-size: 16px;
+	color: #FFFFFF;
+	line-height: 42px;
+	text-align: center;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.pianoCompetitionBox_enroll_part1_btn:hover{
+	background-color: orange;
+}
+
+.bg{
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ABABAB;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    z-index: 10000;
+    display: none;
+}
+
+.iptPop{
+	width: 300px;
+	height: 160px;
+	background: #FFFFFF;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -150px;
+	margin-top: -100px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	z-index: 10001;
+	display: none;
+}
+.iptPop_title{
+	width: 300px;
+	height: 40px;
+	background-color: #F5F5F5;
+	font-size: 16px;
+	color: #333333;
+	font-weight: bold;
+	line-height: 40px;
+	text-align: center;
+}
+.iptPop_con{
+	width: 300px;
+	height: 120px;
+	font-size: 14px;
+	color: #666666;
+	font-weight: bold;
+	line-height: 120px;
+	text-align: center;
+}
+.iptPop_close{
+	position: absolute;
+	top: 0;
+	right: 2px;
+	font-size: 25px;
+	color: #666666;
+	line-height: 20px;
+	cursor: pointer;
+}
+.iptPop_close:hover{
+	color: #000000;
+}
